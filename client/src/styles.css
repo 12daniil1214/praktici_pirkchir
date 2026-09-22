@@ -135,7 +135,7 @@ button:focus-visible {
   
 .eyebrow { 
   margin: 0 0 6px; 
-  color: #4f46e5; 
+  color: #e546c0; 
   font-weight: 800; 
   font-size: 12px; 
   letter-spacing: 0.08em; 
@@ -171,13 +171,13 @@ h1 {
 } 
   
 .primaryButton { 
-  border: 1px solid #4f46e5; 
-  background: #4f46e5; 
-  color: white; 
+  border: 1px solid #09080a; 
+  background: #02f9f9; 
+  color: rgb(23, 18, 13); 
 } 
   
 .primaryButton:hover { 
-  background: #4338ca; 
+  background: #513e62; 
 } 
   
 .ghostButton { 

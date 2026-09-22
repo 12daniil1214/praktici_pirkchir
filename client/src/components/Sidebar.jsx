@@ -19,7 +19,7 @@ export default function Sidebar() {
   
       <div className="sidebarNote"> 
         <strong>Практика 1</strong> 
-        <span>Статический интерфейс на React</span> 
+        <span>Даниил Бойко ИКБО-20-25</span> 
       </div> 
     </aside> 
   ); 
