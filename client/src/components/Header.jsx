@@ -1,16 +1,22 @@
-export default function Header() { 
+export default function Header({ onCreateTask }) { 
   return ( 
     <header className="topbar"> 
       <div> 
         <p className="eyebrow">Учебный проект</p> 
-        <h1>Вам не рады в TaskFlow</h1> 
-        <p className="subtitle">Здесь будут собраны ваши штрафы и судимости. Их пока нет, но они обязательно появятся))).</p> 
+        <h1>Добро пожаловать в TaskFlow</h1> 
+        <p className="subtitle"> 
+          Управляйте задачами, фильтрами и прогрессом. 
+        </p> 
       </div> 
   
-      <button className="primaryButton" type="button"> 
+      <button 
+        className="primaryButton" 
+ 
+        type="button" 
+        onClick={onCreateTask} 
+      > 
         + Новая задача 
       </button> 
     </header> 
   ); 
- 
-}
+} 
